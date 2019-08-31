@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+.Pokecard {
+  width: 20%;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+  background-color: $card-color;
+  text-align: center;
+  border-radius: 10px;
+
+  p {
+    font-size: 80%;
+    font-weight: 700;
+    line-height: 0.3em;
+  }
+
+  img {
+    transition: all 500ms;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
+}
+
+.Pokecard-title {
+  color: $title-color;
+}
+
+.Pokecard-image {
+  background-color: $back-color;
+}

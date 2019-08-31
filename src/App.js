@@ -1,10 +1,12 @@
 import React from 'react';
 import './styles/App.scss';
 
+import Pokegame from './Pokegame';
+
 function App() {
   return (
     <div className='App'>
-      <h1>Working</h1>
+      <Pokegame />
     </div>
   );
 }
