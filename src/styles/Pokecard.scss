@@ -8,6 +8,11 @@
   background-color: $card-color;
   text-align: center;
   border-radius: 10px;
+  transition: all 500ms;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   p {
     font-size: 80%;
@@ -15,13 +20,14 @@
     line-height: 0.3em;
   }
 
-  img {
-    transition: all 500ms;
-  }
+  //Removed byt the order of hamzashahab1610
+  // img {
+  //   transition: all 500ms;
 
-  img:hover {
-    transform: scale(1.2);
-  }
+  //   &:hover {
+  //     transform: scale(1.2);
+  //   }
+  // }
 }
 
 .Pokecard-title {
